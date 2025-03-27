@@ -31,7 +31,13 @@ const Show = () => {
 
   // Check if showData is available and has backdrop_path
   if (!showData) {
-    return <div>Loading...</div>;
+    return (
+      <>
+      <div className="w-screen h-screen flex items-center justify-center">
+        <div className="w-[56px] h-[56px] border-t-2 border-b-2 border-l-2 animate-spin border-[#ffcc00] rounded-full"></div>
+      </div>
+      </>
+    );
   }
 
   return (

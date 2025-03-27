@@ -36,6 +36,9 @@ const ShowEpi = ({ id, showData }) => {
     }
   };
 
+  // https://player.autoembed.cc/embed/tv/${id}/${selectedSeason}/${selectedEpisode}
+
+  //https://www.2embed.cc/embedtv/${id}&s=${selectedSeason}&e=${selectedEpisode}
   return (
     <div className="relative">
       {/* ✅ Embedded Video Player (Now Updates Correctly) */}
