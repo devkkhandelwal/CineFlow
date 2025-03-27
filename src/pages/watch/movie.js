@@ -46,7 +46,7 @@ const Movie = () => {
         {/** Player */}
         <div className="w-full aspect-video object-cover">
           <iframe
-            src={`https://www.2embed.cc/embed/${id}`}
+            src={`https://player.autoembed.cc/embed/movie/${id}`}
             className="w-full mx-auto h-auto aspect-video object-cover"
             allowFullScreen
           />
